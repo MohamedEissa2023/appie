@@ -55,17 +55,17 @@
   color: #d6336c;
 }
 
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
+.nav-cta:link,
+.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   border-radius: 2.5rem;
   color: #fff;
   background-color: #fe486d;
 }
 
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
-  background-color: #fe3d66;
+.nav-cta:hover,
+.nav-cta:active {
+  background-color: #d6336c;
 }
 
 /*************************/
@@ -446,10 +446,18 @@
   margin-bottom: 4rem;
 }
 
+/*************************/
+/* SECTION DOWNLOAD APP */
+/*************************/
+
 .section-download {
   width: 100%;
-  height: 100%;
-  padding: 8rem;
+  margin-bottom: 9.6rem;
+}
+
+.download-app {
+  padding: 10rem;
+  background-color: #f8f9fa;
 }
 
 .download {
@@ -471,6 +479,223 @@
 }
 .stores-img {
   width: 20%;
+}
+
+/*************************/
+/* SECTION Simple-Pricing */
+/*************************/
+
+.simple-pricing {
+  margin-bottom: 12rem;
+}
+
+.simple-text {
+  text-align: center;
+  font-size: 4.4rem;
+  color: #232542;
+  margin-bottom: 1rem;
+}
+
+.the-full {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 2.6rem;
+  color: #555;
+  margin-bottom: 4rem;
+}
+
+.heading-original {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  color: #171934;
+  margin-top: 3rem;
+}
+
+.heading-month {
+  color: rgba(85, 85, 85, 0.7);
+  font-size: 1.7rem;
+  margin-bottom: 1.6rem;
+}
+
+.heading-month span {
+  font-size: 2.8rem;
+  margin-right: 0.6rem;
+  color: #333;
+  font-weight: 400;
+}
+
+.strong {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #232542;
+}
+
+.pricing-title {
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
+}
+
+.pricing {
+  border: 1px solid rgba(146, 146, 146, 0.1);
+  border-radius: 11px;
+  padding: 3rem 4rem;
+}
+
+.pricing-sweet {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-top: 5px solid #ff6886;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-sweet::after {
+  content: "Most Popular";
+  position: absolute;
+  top: 5%;
+  right: -5%;
+  border-radius: 6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #4a56ff;
+  color: #fff;
+  padding: 0.8rem 4rem;
+}
+
+.pricing-attributes {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.pricing-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.pricing-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #c3f0aa;
+  background-color: #6bc437;
+}
+
+.btn-choose {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  padding: 1.4rem 2.8rem;
+  border-radius: 3rem;
+  font-weight: 500;
+  background-color: #fff;
+  border-color: rgba(85, 85, 85, 0.25);
+  cursor: pointer;
+  color: #333;
+}
+
+.btn-pink {
+  background-color: #ff6886;
+  border: none;
+  color: #fff;
+}
+
+/*************************/
+/* SECTION Hassan */
+/*************************/
+
+.section-hassan {
+  width: 130rem;
+  height: 60rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  align-items: center;
+}
+
+.hassan-img-box {
+  padding: 10rem;
+  background-image: url(./img/BGG.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.hassan-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.hassan-img {
+  width: 40%;
+  height: 70%;
+}
+
+.stars {
+  margin-top: 1.6rem;
+  color: orange;
+  font-size: 1.8rem;
+}
+
+.review {
+  color: #c2f0aad2;
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  opacity: 90%;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 1.4;
+  margin-bottom: 3.6rem;
+}
+
+.name-person {
+  font-size: 2.6rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+
+.job {
+  font-size: 1.6rem;
+  color: #fff;
+  opacity: 70%;
+}
+
+.btn-arrow {
+  float: right;
+  background-color: non;
+}
+
+.hassan-img {
+  border-radius: 50%;
+}
+
+/*************************/
+/* SECTION platforms */
+/*************************/
+
+.gallery {
+  align-items: center;
+  border: square;
+  padding: 0 50rem 0 50rem;
+  margin-top: 7rem;
+}
+
+.gallery-item {
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+  padding: 3rem;
 }
 
 /**************************/
